@@ -1,0 +1,519 @@
+[
+  {
+    "description": "  As a traveler\n  I want to book a destination\n  So I can travel to space",
+    "elements": [
+      {
+        "description": "",
+        "id": "book-a-destination;book-a-destination-successfully",
+        "keyword": "Scenario Outline",
+        "line": 38,
+        "name": "Book a destination successfully",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 1245630300
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 7,
+            "name": "the traveler opens the application",
+            "match": {
+              "location": "src/step_definitions/booking.steps.ts:23"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2428758215
+            }
+          },
+          {
+            "arguments": [
+              {
+                "rows": [
+                  {
+                    "cells": [
+                      "departure",
+                      "2026-08-10"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "return",
+                      "2026-08-20"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "adults",
+                      "2"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "children",
+                      "1"
+                    ]
+                  }
+                ]
+              }
+            ],
+            "keyword": "When ",
+            "line": 11,
+            "name": "the traveler searches a trip with",
+            "match": {
+              "location": "src/step_definitions/booking.steps.ts:30"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2548089478
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 17,
+            "name": "filters destinations by maximum price \"904\"",
+            "match": {
+              "location": "src/step_definitions/booking.steps.ts:46"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 217904422
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 18,
+            "name": "traveler presses the button \"Select Destination\"",
+            "match": {
+              "location": "src/step_definitions/booking.steps.ts:61"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 133127372
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 19,
+            "name": "traveler presses the button \"Load more\"",
+            "match": {
+              "location": "src/step_definitions/booking.steps.ts:61"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 79671743
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 20,
+            "name": "chooses destination \"Flagstaff\"",
+            "match": {
+              "location": "src/step_definitions/booking.steps.ts:54"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 85677825
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 21,
+            "name": "traveler presses the button \"Book\"",
+            "match": {
+              "location": "src/step_definitions/booking.steps.ts:61"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 211732635
+            }
+          },
+          {
+            "arguments": [
+              {
+                "rows": [
+                  {
+                    "cells": [
+                      "name",
+                      "Alexandra QA"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "email",
+                      "alexandra@test.com"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "ssn",
+                      "123-45-6789"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "phone",
+                      "+17877039199"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "file",
+                      "src/resources/health-insurance.pdf"
+                    ]
+                  }
+                ]
+              }
+            ],
+            "keyword": "And ",
+            "line": 22,
+            "name": "completes the booking form with",
+            "match": {
+              "location": "src/step_definitions/booking.steps.ts:68"
+            },
+            "result": {
+              "status": "failed",
+              "duration": 5008640484,
+              "error_message": "Error: function timed out, ensure the promise resolves within 5000 milliseconds\n    at Timeout.<anonymous> (/home/troyano13/Documentos/TEST_BORR/Prueba_T-cnica_Puntos_Colombia/node_modules/@cucumber/cucumber/src/time.ts:52:14)\n    at listOnTimeout (node:internal/timers:581:17)\n    at processTimers (node:internal/timers:519:7)"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 29,
+            "name": "applies promo code \"SALE20\"",
+            "match": {
+              "location": "src/step_definitions/booking.steps.ts:76"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 30,
+            "name": "accepts the terms",
+            "match": {
+              "location": "src/step_definitions/booking.steps.ts:83"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 31,
+            "name": "confirms payment",
+            "match": {
+              "location": "src/step_definitions/booking.steps.ts:90"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 34,
+            "name": "the booking should be completed",
+            "match": {
+              "location": "src/step_definitions/booking.steps.ts:97"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 148414353
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@critical",
+            "line": 9
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "book-a-destination;book-a-destination-successfully",
+        "keyword": "Scenario Outline",
+        "line": 39,
+        "name": "Book a destination successfully",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 1141297731
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 7,
+            "name": "the traveler opens the application",
+            "match": {
+              "location": "src/step_definitions/booking.steps.ts:23"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2427882044
+            }
+          },
+          {
+            "arguments": [
+              {
+                "rows": [
+                  {
+                    "cells": [
+                      "departure",
+                      "2026-09-05"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "return",
+                      "2026-09-15"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "adults",
+                      "1"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "children",
+                      "2"
+                    ]
+                  }
+                ]
+              }
+            ],
+            "keyword": "When ",
+            "line": 11,
+            "name": "the traveler searches a trip with",
+            "match": {
+              "location": "src/step_definitions/booking.steps.ts:30"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2710709928
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 17,
+            "name": "filters destinations by maximum price \"400\"",
+            "match": {
+              "location": "src/step_definitions/booking.steps.ts:46"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 181093632
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 18,
+            "name": "traveler presses the button \"Select Destination\"",
+            "match": {
+              "location": "src/step_definitions/booking.steps.ts:61"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 73183269
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 19,
+            "name": "traveler presses the button \"Load more\"",
+            "match": {
+              "location": "src/step_definitions/booking.steps.ts:61"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 79777919
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 20,
+            "name": "chooses destination \"Tongli\"",
+            "match": {
+              "location": "src/step_definitions/booking.steps.ts:54"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 104275042
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 21,
+            "name": "traveler presses the button \"Book\"",
+            "match": {
+              "location": "src/step_definitions/booking.steps.ts:61"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 177005784
+            }
+          },
+          {
+            "arguments": [
+              {
+                "rows": [
+                  {
+                    "cells": [
+                      "name",
+                      "Alexandra QA"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "email",
+                      "alexandra@test.com"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "ssn",
+                      "123-45-6789"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "phone",
+                      "+17877039199"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "file",
+                      "src/resources/health-insurance.pdf"
+                    ]
+                  }
+                ]
+              }
+            ],
+            "keyword": "And ",
+            "line": 22,
+            "name": "completes the booking form with",
+            "match": {
+              "location": "src/step_definitions/booking.steps.ts:68"
+            },
+            "result": {
+              "status": "failed",
+              "duration": 5005354486,
+              "error_message": "Error: function timed out, ensure the promise resolves within 5000 milliseconds\n    at Timeout.<anonymous> (/home/troyano13/Documentos/TEST_BORR/Prueba_T-cnica_Puntos_Colombia/node_modules/@cucumber/cucumber/src/time.ts:52:14)\n    at listOnTimeout (node:internal/timers:581:17)\n    at processTimers (node:internal/timers:519:7)"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 29,
+            "name": "applies promo code \"TEST10\"",
+            "match": {
+              "location": "src/step_definitions/booking.steps.ts:76"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 30,
+            "name": "accepts the terms",
+            "match": {
+              "location": "src/step_definitions/booking.steps.ts:83"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 31,
+            "name": "confirms payment",
+            "match": {
+              "location": "src/step_definitions/booking.steps.ts:90"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 34,
+            "name": "the booking should be completed",
+            "match": {
+              "location": "src/step_definitions/booking.steps.ts:97"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 107747967
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@critical",
+            "line": 9
+          }
+        ],
+        "type": "scenario"
+      }
+    ],
+    "id": "book-a-destination",
+    "line": 1,
+    "keyword": "Feature",
+    "name": "Book a destination",
+    "tags": [],
+    "uri": "src/features/general/booking.feature"
+  }
+]
