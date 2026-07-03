@@ -1,7 +1,7 @@
 /*
  * Clase User (Actor)
  * Autor: Alexandra Tr.
- * Fecha: 2024-11-28
+ * Fecha: 2026-07-03
  * Descripción: Representa a un usuario que realiza tareas en la aplicación.
  */
 
