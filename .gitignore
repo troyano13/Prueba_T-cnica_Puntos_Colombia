@@ -1,0 +1,39 @@
+# Node.js dependencies
+node_modules/
+npm-debug.log
+yarn-error.log
+package-lock.json
+
+# archivo de variables
+.env
+.env_cr
+.env_original
+.env_pa
+
+# Playwright/Testing frameworks
+test-results/
+allure-results/
+allure-report/
+*.log
+
+# IDEs and Editors
+.vscode/
+.idea/
+*.iml
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# GitLab CI/CD
+*.generated
+*.cache
+/playwright-report/
+/blob-report/
+/playwright/.cache/
+
+# insumo de datos
+resource/json/*.json
+resource/json/token.json
+!resource/json/etc_parking_json/
+!resource/json/etc_parking_json/**

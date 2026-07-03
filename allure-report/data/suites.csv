@@ -1,7 +1,0 @@
-"DESCRIPTION","DURATION IN MS","NAME","PARENT SUITE","START TIME","STATUS","STOP TIME","SUB SUITE","SUITE","TEST CLASS","TEST METHOD"
-"As a traveler
-  I want to book a destination
-  So I can travel to space","13630","Book a destination successfully","","Fri Jul 03 10:11:16 COT 2026","broken","Fri Jul 03 10:11:30 COT 2026","","","",""
-"As a traveler
-  I want to book a destination
-  So I can travel to space","39679","Book a destination successfully","","Fri Jul 03 10:10:36 COT 2026","broken","Fri Jul 03 10:11:16 COT 2026","","","",""
