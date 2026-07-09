@@ -1,4 +1,4 @@
-# Arquitetura ScreenPlay para automatizacion de ETC Parking WebUI  
+# Arquitetura ScreenPlay para automatizacion https://demo.example/
 
 ## Descripción
 Este proyecto contiene pruebas automatizadas utilizando Cucumber.js y Playwright/JS bajo una arquitectura modular para validar la funcionalidad de la aplicación web.
